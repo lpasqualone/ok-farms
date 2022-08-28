@@ -603,7 +603,10 @@ section.the-food {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+}
+
+.footernav-item ul li {
+    margin: 0 10px;
 }
 
 .footer-right p {
@@ -634,6 +637,16 @@ section.the-food {
     }
     .header .logo a {
         font-size: 2em;
+    }
+    .footernav-item ul {
+        position: relative;
+        right: -20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .footernav-item ul {
+        right: -10px;
     }
 }
 
